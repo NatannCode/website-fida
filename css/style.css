@@ -1,7 +1,7 @@
 :root {
-    --primary: #c47fdf;
-    --secondary: black;
-    --bg: #fff;
+    --primary: #804100;
+    --secondary: #black;
+    --bg: #f5f5f5;
     
 
 }
@@ -18,7 +18,7 @@
 
 body {
     font-family: 'poppins', sans-serif;
-    background-color: black;
+    background-color: ;
     color: #fff;
 }
 
@@ -32,7 +32,7 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 1.4rem 7%;
-    background-color: rgba(1, 1, 1, 0.8);
+    background-color: var(--secondary);
     border-bottom: 1px solid #513d29;
     position: fixed;
     top: 0;
@@ -44,7 +44,7 @@ html {
 .navbar .navbar-logo {
     font-size: 2rem;
     font-weight: 700;
-    color: #fff;
+    color: #333;
     font-style: italic;
 }
 
@@ -54,7 +54,7 @@ html {
 }
 
 .navbar .navbar-nav a {
-    color: #fff;
+    color: var(--secondary);
     display: inline-block;
     font-size: 1.3rem;
     margin: 0 1rem;
@@ -96,7 +96,7 @@ html {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('../img/bg.jpg');
+    background-image: url('');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -418,7 +418,7 @@ footer .credits a {
     }
 
     .navbar .navbar-nav {
-        position: absolute;
+position: absolute;
         top: 100%;
         right: -100%;
         background-color: #fff;
